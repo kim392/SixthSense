@@ -1,0 +1,27 @@
+html, body {
+	width: 300px;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.refresh-control, .css-control, .font-size-control, .border-control {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: solid 2px blue;
+}
+
+.refresh-control *, .css-control *, .font-size-control *, .border-control  * {
+	display: inline;
+}
+
+.refresh-hint {
+	font-weight: bolder;
+	background: #000;
+	padding: 5px;
+	border-radius: 10px;
+	color: #fff;
+}
+
