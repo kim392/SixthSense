@@ -49,7 +49,7 @@ If successful, skip next three steps.
 
 
 ***Uninstallation Instructions***
-----------------------------------
+
 
 * Navigate to the Chrome extensions page. Follow Installation Instructions above.
 
