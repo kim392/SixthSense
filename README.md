@@ -5,7 +5,6 @@ Chrome Extension with accessibility features. Final project for Culture of Disab
 
 
 ***Installation Intructions***
---------------------------------
 
 
 *  Download the zip ("Download ZIP" button in right sidebar)
@@ -33,9 +32,10 @@ If successful, skip next three steps.
 
 *  Sixth Sense app icon should be in the browser next to address bar. It's a square icon with four brown dots.
 
+---------------------------------------
+
 
 ***App Usage Tips***
----------------------
 
 
 *  After installing Sixth Sense, make sure any web pages that were previously opened is refreshed.
