@@ -45,7 +45,7 @@ If successful, skip next three steps.
 *  "Disable CSS" - CSS is what gives web pages color and structure. Disable CSS is the Apps main feature.
 
 
-
+------------------------------------------
 
 
 ***Uninstallation Instructions***
