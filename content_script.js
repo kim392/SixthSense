@@ -57,19 +57,25 @@ $(document).ready(function() {
         } else if(msg.stylechange === "addBorders") {
 
             if(msg.hasBorders === true) {
-                console.log('About to Add Borders');
-                $('p, img, video, object, a, h1, h2, h3, h4, h5, h6, li').css('border-style', 'solid');
-                $('p, img, video, object, a, h1, h2, h3, h4, h5, h6, li').css('border-width', '2');
-                $('p, img, video, object, a, h1, h2, h3, h4, h5, h6, li').css('border-color', 'blue');
+
+                var padding = $('p').css('padding');
+
+                $('p, img, video, object, h1, h2, h3, h4, h5, h6, li').css('border-style', 'solid');
+                $('p, img, video, object, h1, h2, h3, h4, h5, h6, li').css('border-width', '2');
+                $('p, img, video, object, h1, h2, h3, h4, h5, h6, li').css('border-color', 'blue');
+
+                $('p, img, video, object, h1, h2, h3, h4, h5, h6, li').css('padding', '0');
+                $('p, img, video, object, h1, h2, h3, h4, h5, h6, li').css('padding', '15px');
 
             } else if(msg.hasBorders === false) {
-                $('p, img, video, object, a, h1, h2, h3, h4, h5, h6, li').css('border-style', 'none');
+                $('p, img, video, object, h1, h2, h3, h4, h5, h6, li').css('border-style', 'none');
             }
         }
           
       });
 
     });
+    
 
 });
 

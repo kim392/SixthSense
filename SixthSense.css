@@ -1,9 +1,17 @@
 html, body {
 	width: 300px;
-	height: 300px;
+	height: 600px;
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
+	text-align: center;
+	overflow: scroll;
+	font-family: arial;
+}
+
+h1 {
+	margin: 0 0 20px 0;
+	font-size: 30px;
+	font-weight: 900;
 }
 
 .refresh-control, .css-control, .font-size-control, .border-control {
@@ -14,13 +22,41 @@ html, body {
 }
 
 .refresh-control *, .css-control *, .font-size-control *, .border-control  * {
-	display: inline;
+
+}
+
+.font-size-control button {
+	width: 140px;
+	height: 90px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+input[type='checkbox'] + label {
+	width: 100px;
+	height: 100px;
+	background: url('cross.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+input[type='checkbox']:checked + label {
+	width: 100px;
+	height: 100px;
+	background: url('check.png');
+	background-repeat: no-repeat;
+	display: inline-block;
 }
 
 .refresh-hint {
 	font-weight: bolder;
 	background: #000;
 	padding: 5px;
+	font-size: 20px;
 	border-radius: 10px;
 	color: #fff;
 }

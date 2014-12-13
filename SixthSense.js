@@ -119,6 +119,7 @@ $(document).ready(function() {
 
 		});
 
+
 	});
 
 
@@ -141,6 +142,39 @@ $(document).ready(function() {
 			}
 
 		});
+
+	});
+
+	console.log($('label.controller'));
+
+	$('label.controller').on('mouseenter', function(e) {
+
+		var checkbox = e.target.htmlFor;
+		if($('#' + checkbox).prop('checked')) {
+			$(e.target).css('background-image', 'url("cross.png")');
+		} else {
+			$(e.target).css('background-image', 'url("check.png")');
+		}
+		
+	});
+
+	$('label.controller').on('mouseenter', function(e) {
+
+		var checkbox = e.target.htmlFor;
+		if($('#' + checkbox).prop('checked')) {
+			$(e.target).css('background-image', 'url("cross.png")');
+		} else {
+			$(e.target).css('background-image', 'url("check.png")');
+		}
+		
+	}).mouseleave(function(e) {
+
+		var checkbox = e.target.htmlFor;
+		if($('#' + checkbox).prop('checked')) {
+			$(e.target).css('background-image', 'url("check.png")');
+		} else {
+			$(e.target).css('background-image', 'url("cross.png")');
+		}
 
 	});
 
