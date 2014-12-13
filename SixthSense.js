@@ -145,7 +145,6 @@ $(document).ready(function() {
 
 	});
 
-	console.log($('label.controller'));
 
 	$('label.controller').on('mouseenter', function(e) {
 
