@@ -2,7 +2,7 @@
 	"version": "0.1",
 	"manifest_version": 2,
 	"name": "Sixth Sense",
-	"description": "Sixth Sense is an accessibility app that is enabled with features to make the web browsing experience for users with visiual impairment to browse the web comfortably.",
+	"description": "Sixth Sense is an accessibility app that is enabled with features to make the web browsing experience for users who are visually impaired to browse the web comfortably.",
 	"browser_action": {
 		"default_popup": "background.html",
 		"default_icon": "calculator-16.png"

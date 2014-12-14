@@ -3,6 +3,9 @@ SixthSense
 
 Chrome Extension with accessibility features. Final project for Culture of Disability (SPED 117) class at UIUC.
 
+***Installation & Demo Video***
+https://www.youtube.com/watch?v=XBI5SCAxQxA
+
 
 ***Installation Intructions***
 
